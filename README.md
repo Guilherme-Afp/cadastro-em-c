@@ -53,57 +53,33 @@ cadastro-c/
 ├── Makefile
 └── .gitignore
 
-# Aprendizados
+## Aprendizados
 
 Esse projeto foi importante para consolidar conceitos como:
 
-lógica de programação
-manipulação de arquivos
-organização de dados com structs
-separação de responsabilidades
-modularização em C
-ordenação de registros
-uso de Git e GitHub
+- lógica de programação
+- manipulação de arquivos
+- organização de dados com structs
+- separação de responsabilidades
+- modularização em C
+- ordenação de registros
+- uso de Git e GitHub
 
 Durante a revisão e refatoração do projeto também identifiquei pontos importantes de melhoria relacionados a:
 
-uso excessivo de variáveis globais
-acoplamento entre módulos
-segurança na entrada de dados
-organização arquitetural
-Melhorias Futuras
-Reduzir dependência de variáveis globais
-Melhorar modularização do sistema
-Implementar validações mais robustas
-Substituir scanf por abordagens mais seguras
-Criar versão utilizando SQLite
-Melhorar portabilidade entre sistemas operacionais
-Adicionar testes automatizados
-
-A versão original monolítica do projeto foi mantida na pasta legacy/ para fins de comparação e evolução arquitetural.
+- uso excessivo de variáveis globais
+- acoplamento entre módulos
+- segurança na entrada de dados
+- organização arquitetural
 
 ---
 
-## Demonstração
+## Melhorias Futuras
 
-### Menu principal
-
-![Menu](images/menu.png)
-
----
-
-### Cadastro de contas
-
-![Cadastro](images/cadastro.png)
-
----
-
-### Consulta de registros
-
-![Consulta](images/consulta.png)
-
----
-
-### Ordenação dos registros
-
-![Ordenação](images/ordenacao.png)
+- Reduzir dependência de variáveis globais
+- Melhorar modularização do sistema
+- Implementar validações mais robustas
+- Substituir `scanf` por abordagens mais seguras
+- Criar versão utilizando SQLite
+- Melhorar portabilidade entre sistemas operacionais
+- Adicionar testes automatizados
